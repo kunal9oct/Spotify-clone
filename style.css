@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+/* font-family: 'Ubuntu', sans-serif; 
+font-family: 'Varela Round', sans-serif; */
+
+body{
+	background-color: antiquewhite;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+nav{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+	display: flex;
+	align-items: center;
+	list-style: none;
+	height: 65px;
+	background-color: #000;
+	color: #fff;
+}
+
+nav ul li{
+	padding: 0 12px;
+}
+
+.brand img{
+	width: 45px;
+	padding: 0 8px;
+}
+
+.brand{
+	display: flex;
+	align-items: center;
+	font-weight: bolder;
+	font-size: 1.3rem;
+}
+
+.container{
+	min-height: 61vh;
+	background-color: #000;
+	color: #fff;
+	font-family: 'Varela Round', sans-serif;
+	display: flex;
+	margin: 19px auto;
+	width: 70%;
+	border-radius: 12px;
+	padding: 30px;
+	background-image: url(images/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: cover;
+}
+
+.bottom{
+	position: sticky;
+	height: 105.3px;
+	background-color: #000;
+	color: #fff;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 0 0;
+}
+
+.icons{
+	margin-top: 14px;
+}
+
+.icons i{
+	cursor: pointer;
+}
+
+#myProgressBar{
+	width: 80vw;
+	cursor: pointer;
+}
+
+.songItem{
+   height: 50px;
+   display: flex;
+   background-color: #fff;
+   width: 80%;
+   color: #000;
+   margin: 12px 0;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 34px;
+}
+ 
+.songItemcontainer{
+	margin-top: 65px;
+}
+
+.songItem img{
+  width: 43px;
+  margin: 0 23px;
+  border-radius: 23px;
+}
+
+.timestamp{
+	margin: 0 23px;
+}
+
+.timestamp i{
+	cursor: pointer;
+}
+
+.songInfo{
+	position: absolute;
+	left: 9.5vw;
+}
+
+.songInfo img{
+	opacity: 0;
+	transition: opacity 0.4s ease-in;
+	font-family: 'Varela Round', sans-serif;
+	margin: 0 10px;
+}
+
+.songInfoText{
+	padding: 0px 0px;
+  margin: -23px 57px;
+  display: flex;
+  flex-direction: row;
+}
